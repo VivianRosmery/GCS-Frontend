@@ -4,10 +4,10 @@
     }
 
 body{   
-    margin-top:10px;
-    background-color: #f7f7fc;
-    }
-    
+margin-top:10px;
+background-color: #f7f7fc;
+}
+
 .timeline {
     list-style-type: none;
     position: relative
@@ -87,4 +87,3 @@ color:rgb(146, 209, 199);
     background-color: #fff;
     border-bottom: 0 solid transparent;
 }
-    
