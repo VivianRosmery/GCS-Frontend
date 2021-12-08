@@ -70,39 +70,37 @@
                         <p style="font-size: 13px; color: #bdbdbd;" class="mb-0 me-lg-5">Cuenta Administrativa</p>
                         <p class="text-secondary mb-0 text-end me-lg-5" id="titlePhase">Menu Principal</p>
                     </div>
-                
-                
-                
+                    
                 </div>
                 
                 <div class="container mx-lg-5" id="containerLoginPageRight">
                     <div>
                         <h5 class="fw-bold fs-4" id="titleLoginPage">¡Bienvenido, Administrador!</h5>
-                        <p class="text-secondary" id="textLoginPage">Hola, "nombre" estas son las opciones que tiene.</p>
+                        <p class="text-secondary" id="textLoginPage">Hola, "nombre", ingrese los datos del nuevo usuario alumno.</p>
                     </div>
                 </div>
                 <div class="container mx-lg-5" id="containerLoginPageRight">
                      
-                    <form method="POST" class="d-none formulario">
+                    <form>
                         <div class="mb-1">
                             <p class="label-color mb-1">Nombres*</p>
-                            <input type="text" class="form-control" placeholder="Nombres" />
+                            <input type="text" class="form-control" placeholder="Nombres" required />
                         </div>
                         <div class="mb-1">
                             <p class="label-color mb-1">Apellidos*</p>
-                            <input type="text" class="form-control" placeholder="Apellidos" />
+                            <input type="text" class="form-control" placeholder="Apellidos" required />
                         </div>
                         <div class="mb-1">
                             <p class="label-color mb-1">DNI*</p>
-                            <input type="text" class="form-control" placeholder="DNI" />
+                            <input type="text" class="form-control" placeholder="DNI" pattern="[0-9]{8}" required />
                         </div>
                         <div class="mb-1">
                             <p class="label-color mb-1">Numero de Telefono*</p>
-                            <input type="text" class="form-control" placeholder="Telefono" />
+                            <input type="text" class="form-control" placeholder="999 - 999 - 999" pattern="[0-9]{9}" required/>
                         </div>
                         <div class="mb-1">
                             <p class="label-color mb-1">Correo electronico*</p>
-                            <input type="text" class="form-control" placeholder="Correo" />
+                            <input type="text" class="form-control" placeholder="Correo" required/>
                         </div>
                         <div class="mb-1">
                             <p class="label-color mb-1">Grado*</p>
