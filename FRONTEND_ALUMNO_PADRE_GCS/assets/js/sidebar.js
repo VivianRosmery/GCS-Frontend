@@ -23,7 +23,3 @@ function menuBtnChange() {
   document.getElementById('nav-list').classList.add('d-none');
  }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> dd752547636afa5403036a59f880165adb5c57ad
