@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
 
-
 body{
     font-style: italic;
     background: #F8F9FA;
@@ -9,7 +8,6 @@ body{
 .main-box.no-header {
     padding-top: 20px;
 }
-
 
 .main-box {
     background: #FFFFFF;
